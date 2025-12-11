@@ -40,11 +40,11 @@ handlers.ts
 ---
 
 ## 🛠️ How to Run
-
+```
 npm install
 npm run dev
 http://localhost:5173
-
+```
 MSW mock APIs load automatically in development.
 
 ---
@@ -98,4 +98,5 @@ Accepts serialized workflow (nodes + edges) and returns step-by-step execution l
 - Clean, modular file structure
 
 ---
+
 
