@@ -1,0 +1,17 @@
+:root { --bg:#0f1720; --panel:#0b1220; --accent:#06b6d4; }
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0}
+body{font-family:Inter, sans-serif; background:#0b1220;color:#e6eef6}
+.app{height:100vh;display:flex}
+.sidebar{width:220px;background:#071023;padding:12px}
+.canvas-panel{flex:1;display:flex;flex-direction:column}
+.topbar{height:44px;display:flex;align-items:center;padding:0 12px;background:#081427}
+.footer{height:44px;background:#06101b;display:flex;align-items:center;padding:0 12px}
+.controls{display:flex;gap:8px}
+.node-form{width:320px;background:#071827;padding:12px;border-left:1px solid rgba(255,255,255,0.04)}
+.app-grid{display:flex;flex:1;min-height:0}
+.canvas-area{flex:1;position:relative}
+.button{background:var(--accent);color:#042024;padding:6px 10px;border-radius:6px;border:none;cursor:pointer}
+.small{font-size:12px;padding:6px}
+.node-card{background:#082033;padding:8px;margin:8px 0;border-radius:6px;cursor:grab}
+.log{background:#04101a;padding:8px;border-radius:6px;height:160px;overflow:auto}
