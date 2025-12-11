@@ -18,7 +18,7 @@ This project demonstrates:
 ---
 
 ## 📁 Folder Structure
-
+```
 src/
 │ App.tsx
 │ main.tsx
@@ -36,7 +36,7 @@ src/
 └── mocks/
 browser.ts
 handlers.ts
-
+```
 ---
 
 ## 🛠️ How to Run
@@ -98,3 +98,4 @@ Accepts serialized workflow (nodes + edges) and returns step-by-step execution l
 - Clean, modular file structure
 
 ---
+
